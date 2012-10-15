@@ -1,0 +1,14 @@
+Revision history for Perl extension XML::Perl.
+
+0.04
+	- xpath
+
+0.03
+	- perlbase2xml
+
+0.02
+	- xml2perlbase
+	- xmlformat
+
+0.01
+	- perl2xml

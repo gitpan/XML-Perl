@@ -1,0 +1,10 @@
+use ExtUtils::MakeMaker;
+
+WriteMakefile(
+    NAME              => 'XML::Perl',
+    VERSION_FROM      => 'XML/Perl.pm', # finds $VERSION
+    PREREQ_PM         => { 'HTML::Parser' => 0 }, # e.g., Module::Name => 1.1
+    ($] >= 5.005 ?     ## Add these new keywords supported since 5.005
+      (ABSTRACT_FROM  => 'XML/Perl.pm', # retrieve abstract from module
+       AUTHOR         => 'Nick Kostirya <nick@ToDo.org>') : ()),
+);

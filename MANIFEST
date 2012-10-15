@@ -1,0 +1,10 @@
+Changes
+Makefile.PL
+MANIFEST
+README
+XML/Perl.pm
+t/1_perl2xml.t
+t/2_xmlformat.t
+t/3_xml2perl.t
+t/4_xpath.t
+META.yml                                 Module meta-data (added by MakeMaker)
