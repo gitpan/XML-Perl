@@ -7,7 +7,7 @@ use Exporter;
 our @ISA = qw(Exporter);
 our @EXPORT = qw(perl2xml xmlformat xml2perlbase perlbase2xml xpath);
 
-our $VERSION = '0.04';
+our $VERSION = '0.05';
 
 use HTML::Parser;
 
@@ -45,7 +45,7 @@ sub _kv($$$$$) {
 				$nodes{$_k} = $_v;
 			}
 		}
-		my $attrs = @attrs ? (join " ", "", @attrs) : "";
+		my $attrs = @attrs ? (join " ", "", sort @attrs) : "";
 		if (keys %nodes) {
 			# nodes
 			++$i;

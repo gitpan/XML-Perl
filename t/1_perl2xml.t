@@ -56,7 +56,7 @@ is perl2xml($perl), $xml, "perl2xml 1";
 {
 my $xml = <<EOD;
 <test>
-	<array perl="awesome" hidden="secret">
+	<array hidden="secret" perl="awesome">
 		<item index="0"/>
 		<item index="1"/>
 		<item index="2"/>
