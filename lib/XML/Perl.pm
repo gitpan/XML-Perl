@@ -7,7 +7,7 @@ use Exporter;
 our @ISA = qw(Exporter);
 our @EXPORT = qw(perl2xml xmlformat xml2perlbase perlbase2xml xpath);
 
-our $VERSION = '0.05';
+our $VERSION = '0.06';
 
 use HTML::Parser;
 

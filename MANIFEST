@@ -2,7 +2,7 @@ Changes
 Makefile.PL
 MANIFEST
 README
-XML/Perl.pm
+lib/XML/Perl.pm
 t/1_perl2xml.t
 t/2_xmlformat.t
 t/3_xml2perl.t
